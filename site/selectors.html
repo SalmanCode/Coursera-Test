@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SELECTORS</title>
+	<style>
+		header li{
+			list-style: none;
+			color: black;
+		}
+		a:link, a:visited {
+			background-color: gray;
+			border:4px solid silver;
+			display: inline-block;
+			margin-bottom: 4px;
+			width:200px;
+			color: black;
+		}
+		a:hover  {
+			background-color: white;
+
+		}
+		header li:nth-child(3){
+			font-size: 24px;
+		}
+		section div:nth-child(even) {
+			color:red;
+			display: block;
+			width:200px;
+			border:1px solid black;
+		}
+		section div:nth-child(odd){
+			
+			background-color: silver;
+			display: block;
+			width:200px;
+			border:1px solid black;
+		}
+		section div:hover{
+			background-color: green;
+		}
+		div , span {
+			background-color: blue;
+		}
+	</style>
+	</head>
+
+<body>
+
+<h1>Pseudo Class Selectors</h1>
+
+<header>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="http://goo.gl/V0Wl6s" target="_blank">Another Stupid Link</a></li>
+    <li><a href="http://www.facebook.com/Creationistonline" title="To whom it may concern" target="_blank">Facebook Fan Page</a></li>
+  </ul>
+</header>
+
+<section>
+  <div>DIV 1</div>
+  <div>DIV 2</div>
+  <div>DIV 3</div>
+  <div>DIV 4</div>
+  <div>DIV 5</div>
+  <div>DIV 6</div>
+  <div>DIV 7</div>
+  <div>DIV 8</div>
+  <div>DIV 9</div>
+  <div>DIV 10</div>
+  <div>DIV 11</div>
+  <div>DIV 12</div>
+  <div>DIV 13</div>
+  <div>DIV 14</div>
+  <div>DIV 15</div>
+  <div>DIV 16</div>
+  <div>DIV 17</div>
+  <div>DIV 18</div>
+  <div>DIV 19</div>
+  <div>DIV 20</div>
+</section>
+<div>
+	hello
+</div>
+<span>world!</span>
+</body>
+</html>

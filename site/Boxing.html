@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boxing</title>
+	<style>
+		body{
+			background-color: #A1A1A1;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		/*border-box is a property which doesnt inherit to daughter element*/
+		/* therefore "*" is used which means take the property and apply to every element */
+		/* "*" is called universal selector*/
+		#Box {
+			margin: 2px;
+			background-color: #A5CCBC;
+			padding: 3px;
+			width: 300px;
+			height: 200;
+			margin-top: 20px; 
+
+		}
+		#Content{
+			margin-left: 2px;
+			margin-top: 2px;
+			
+			background-color: #ED8EBB;
+			padding: 10px;
+			width: 400;
+			border:5px solid black;
+			height: 170px;
+			margin-right: 6px;
+			overflow: auto;/* to put a scroll to fit content in content area */ 
+		}
+		h1{
+			margin-bottom: 100px;
+		}
+	</style>
+</head>
+<body>
+<h1>THE BOX MODEL</h1>
+<div id="Box">
+<div id="Content">
+I Think therefore I am!!
+Who is a creationist?  They are not necessarily a scientist, although many of them are.  It is someone that looks at the beauty, symmetry and complexity of that around them and is profoundly moved to thanksgiving.  It is one who manifests childlike wonder and sense of awe when viewing a bird, a butterfly or any of God’s creation and the inner knowing that it is not an accident that got it here
+</div>
+</div>
+
+</body>
+</html>
